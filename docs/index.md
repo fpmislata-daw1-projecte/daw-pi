@@ -6,12 +6,12 @@ landing: true
 ---
 
 /// html | div.landing-hero
-CIPFP Mislata
+CIPFP Mislata · Desenvolupament d'Aplicacions Web
 { .eyebrow }
 
-# :material-web: Projecte DAW1
+# :material-web: Projecte Intermodular de 1r de DAW
 
-Projecte inter-modular de 1r de __Desenvolupament d'Aplicacions Web (DAW1)__: disseny i implementació d'una aplicació web completa des de zero.
+Projecte intermodular de 1r de __Desenvolupament d'Aplicacions Web (DAW1)__: disseny i implementació d'una aplicació web completa des de zero.
 { .subtitle }
 
 [Objectius](#objectius){ .md-button .md-button--primary }
@@ -84,7 +84,13 @@ La implementació del projecte es durà a terme amb les següents tecnologies i 
 
     ---
 
-    Sistema gestor de bases de dades.
+    Sistema gestor de bases de dades relacional.
+
+- :simple-mongodb:{ .lg .middle } __[MongoDB][mongodb]__
+
+    ---
+
+    Sistema gestor de bases de dades NoSQL orientat a documents.
 
 - :simple-docker:{ .lg .middle } __[Docker][docker]__
 
@@ -124,6 +130,7 @@ La implementació del projecte es durà a terme amb les següents tecnologies i 
 [css]: https://developer.mozilla.org/es/docs/Web/CSS
 [typescript]: https://www.typescriptlang.org/
 [mariadb]: https://mariadb.org/
+[mongodb]: https://www.mongodb.com/
 [docker]: https://www.docker.com/
 [aws]: https://aws.amazon.com/
 [git]: https://git-scm.com/

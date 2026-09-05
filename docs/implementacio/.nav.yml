@@ -1,4 +1,5 @@
 nav:
+  - estructura_client_servidor.md
   - bd.md
   - arquitectura.md
   - proves.md

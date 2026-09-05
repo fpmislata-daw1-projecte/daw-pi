@@ -1,4 +1,5 @@
 ---
 title: Interfície web
-icon: material/web
+icon: fontawesome/solid/laptop-code
+alias: interficie-web
 ---
