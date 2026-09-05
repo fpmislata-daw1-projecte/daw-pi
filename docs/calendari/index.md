@@ -11,7 +11,7 @@ alias: calendari
 start = 2026-09-01
 end = 2027-06-30
 locale = "ca"
-size = "compact"
+size = "md"
 
 [holiday]
 tooltip = "No lectiu"
