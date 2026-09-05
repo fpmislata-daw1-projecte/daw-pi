@@ -16,6 +16,7 @@ Projecte intermodular de 1r de __Desenvolupament d'Aplicacions Web (DAW1)__: dis
 
 [Objectius](#objectius){ .md-button .md-button--primary }
 [Calendari](./calendari/index.md){ .md-button }
+[Programació didàctica](./programacio/index.md){ .md-button }
 { .actions }
 ///
 

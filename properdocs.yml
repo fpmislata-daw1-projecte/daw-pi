@@ -73,6 +73,7 @@ plugins:
       use_anchor_titles: true
       use_page_icon: true
   - glightbox
+  - macros
   - materialx/social:
       enabled: !ENV [CI, false]
   - materialx/tags
