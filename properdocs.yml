@@ -30,8 +30,8 @@ exclude_docs: |
 theme:
   name: material-joapuiib
   icon:
-    logo: fontawesome/solid/people-group
-  favicon: fontawesome/solid/people-group
+    logo: material/web
+  favicon: material/web
 
   # Palette toggle for light mode
   palette:

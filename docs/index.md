@@ -9,7 +9,7 @@ landing: true
 CIPFP Mislata
 { .eyebrow }
 
-# :fontawesome-solid-people-group: Projecte DAW1
+# :material-web: Projecte DAW1
 
 Projecte inter-modular de 1r de __Desenvolupament d'Aplicacions Web (DAW1)__: disseny i implementació d'una aplicació web completa des de zero.
 { .subtitle }
@@ -25,7 +25,7 @@ El projecte consisteix en el desenvolupament d'una aplicació web des de zero,
 que proporcionarà als estudiants una oportunitat per integrar i aplicar els coneixements
 adquirits en els diferents mòduls professionals i veure el procés complet d'un desenvolupament d'una aplicació web senzilla.
 
-Els estudiants treballaran en equips de 4 persones, amb l'objectiu de fomentar el treball en equip d'una manera col·laborativa i cooperativa,
+Els estudiants treballaran en equips de 2 persones, amb l'objectiu de fomentar el treball en equip d'una manera col·laborativa i cooperativa,
 la comunicació efectiva i la gestió i resolució de possibles conflictes.
 
 El desenvolupament del projecte es portarà a terme mitjançant la metodologia àgil SCRUM i estarà dividit en Sprints,
@@ -68,23 +68,17 @@ La implementació del projecte es durà a terme amb les següents tecnologies i 
 
     Llibreria per realitzar proves en Java.
 
-- :simple-thymeleaf:{ .lg .middle } __[ThymeLeaf][thymeleaf]__
+- :simple-html5:{ .lg .middle } __[HTML][html]__ i :simple-css:{ .lg .middle } __[CSS][css]__
 
     ---
 
-    Sistema de plantilles compatible amb Spring, per crear les vistes web de l'aplicació.
+    Per crear l'estructura i donar estil a les vistes i pàgines de l'aplicació.
 
-- :simple-html5:{ .lg .middle } __[HTML][html]__
-
-    ---
-
-    Per crear l'estructura de les vistes de l'aplicació.
-
-- :simple-css:{ .lg .middle } __[CSS][css]__
+- :simple-typescript:{ .lg .middle } __[TypeScript][typescript]__
 
     ---
 
-    Per donar estil a les vistes i pàgines de l'aplicació.
+    Superconjunt de JavaScript amb tipatge estàtic, per implementar la lògica de la interfície web.
 
 - :simple-mariadb:{ .lg .middle } __[MariaDB][mariadb]__
 
@@ -126,9 +120,9 @@ La implementació del projecte es durà a terme amb les següents tecnologies i 
 [java]: https://www.java.com/
 [spring]: https://spring.io/
 [junit5]: https://junit.org/junit5/
-[thymeleaf]: https://www.thymeleaf.org/
 [html]: https://developer.mozilla.org/es/docs/Web/HTML
 [css]: https://developer.mozilla.org/es/docs/Web/CSS
+[typescript]: https://www.typescriptlang.org/
 [mariadb]: https://mariadb.org/
 [docker]: https://www.docker.com/
 [aws]: https://aws.amazon.com/
