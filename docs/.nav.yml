@@ -1,0 +1,7 @@
+nav:
+  - "Inici":
+      - index.md
+      - "Gestió del projecte": gestio
+      - "Implementació": implementacio
+  - "Calendari": calendari
+  - "Avaluació": avaluacio

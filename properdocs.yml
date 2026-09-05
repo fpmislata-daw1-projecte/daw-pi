@@ -1,14 +1,12 @@
 site_name: "Projecte DAW1"
+site_description: "Projecte intermodular de 1r de Desenvolupament d'Aplicacions Web (DAW1)"
+site_author: "Equip educatiu DAW1 del CIPFP Mislata"
 site_url: https://fpmislata-daw1-projecte.github.io/projecte-daw1/
+dev_addr: 127.0.0.1:4567
+
 repo_name: projecte-daw1
 repo_url: https://github.com/fpmislata-daw1-projecte/projecte-daw1
 copyright: CC BY-NC-SA 4.0 (Reconeixement - NoComercial - CompartirIgual) 🅭 Equip educatiu DAW1 del CIPFP Mislata
-
-exclude_docs: |
-  _*
-
-extra_css:
-  - assets/styles/styles.css
 
 extra:
   social:
@@ -19,54 +17,65 @@ extra:
       link: https://github.com/projecte-daw1
       name: projecte-daw1 a GitHub
 
+extra_css:
+  - assets/styles/styles.css
+
+draft_docs: |
+  *_unpublished.md
+  *_draft.md
+
+exclude_docs: |
+  _*
 
 theme:
-  name: material
+  name: material-joapuiib
   icon:
     logo: fontawesome/solid/people-group
-  palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
+  favicon: fontawesome/solid/people-group
 
-    # Palette toggle for light mode
+  # Palette toggle for light mode
+  palette:
     - media: "(prefers-color-scheme: light)"
-      primary: teal
-      scheme: default 
+      primary: 'teal'
+      scheme: default
       toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+        icon: material/weather-sunny
+        name: Canvia a mode fosc
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: teal
+      primary: 'teal'
       scheme: slate
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+        icon: material/weather-night
+        name: Canvia a mode clar
 
   features:
     - announce.dismiss
     - content.code.copy
     - content.code.annotate
+    - content.footnote.tooltips
     - content.tabs.link
     - content.tooltips
     - navigation.top
     - navigation.footer
     - navigation.indexes
-    - navigation.instant
     - navigation.sections
     - navigation.tabs
-    - navigation.top
     - toc.follow
     - search.share
     - search.suggest
 
 plugins:
-  - search
+  - materialx/search
+  - awesome-nav
   - alias:
       use_anchor_titles: true
+      use_page_icon: true
+  - glightbox
+  - materialx/social:
+      enabled: !ENV [CI, false]
+  - materialx/tags
   - i18n:
       languages:
         - locale: ca
@@ -84,10 +93,13 @@ plugins:
             danger: Perill
             example: Exemple
             quote: Cita
-  - social:
-      enabled: !ENV [CI, false]
-  - tags
-  - git-revision-date-localized
+            docs: Documentació
+            solution: Solució
+            important: Important
+            notice: Fixa't
+            prep: Preparació
+            recommend: Recomanació
+  - git-revision-date-localized # Després de i18n o falla
   - git-committers:
       enabled: !ENV [CI, false]
       repository: fpmislata-daw1-projecte/projecte-daw1
@@ -120,10 +132,11 @@ markdown_extensions:
           classes: 'shadow'
         - name: table-caption
           prefix: 'Taula {}.'
+  - inline_blocks
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_index: !!python/name:material_joapuiib.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.fancylists:
       inject_class: true
@@ -148,36 +161,5 @@ markdown_extensions:
   - rubric
   - toc:
       permalink: true
-
-nav:
-  - Inici: 
-    - index.md
-    - Gestió del projecte:
-      - gestio/formacio_grups.md
-      - gestio/scrum.md
-      - gestio/eines.md
-      - gestio/control_versions.md
-    - Implementació:
-      - implementacio/bd.md
-      - implementacio/arquitectura.md
-      - implementacio/proves.md
-      - implementacio/interficie_web.md
-      - implementacio/desplegament.md
-      - implementacio/automatitzacio.md
-  - Calendari:
-    - calendari/index.md
-    - calendari/sprint0.md
-    - calendari/sprint1.md
-    - calendari/sprint2.md
-    - calendari/sprint3.md
-    # - calendari/sprint4.md
-    # - calendari/sprint5.md
-  - Avaluació:
-    - avaluacio/index.md
-    - Rúbriques específiques:
-      - avaluacio/rubriques/bd.md
-      - avaluacio/rubriques/ed.md
-      - avaluacio/rubriques/llmq.md
-      - avaluacio/rubriques/prg.md
-      - avaluacio/rubriques/proj.md
-      - avaluacio/rubriques/si.md
+  - pymdown_multimd_table:
+      rowspan: true
