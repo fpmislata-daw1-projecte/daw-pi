@@ -119,6 +119,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.blocks.html
+  - material_joapuiib.extensions.calendar
   - pymdownx.blocks.caption:
       auto: true
       types:
