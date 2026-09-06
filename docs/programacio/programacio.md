@@ -1,9 +1,9 @@
 ---
 template: programacio.html
 title: "Programació didàctica"
-print_title: "TODO_PROJ_DAW1_2627"
+print_title: "DAW1_PI_2627"
 subtitle:
-    - "TODO – Projecte Intermodular"
+    - "0616p – Projecte Intermodular"
     - Desenvolupament d'Aplicacions Web
 curs: 2026-2027
 alias: programacio
@@ -64,14 +64,14 @@ ja que és la primera vegada que s'imparteix.
 [114-2025]: https://dogv.gva.es/va/eli/es-vc/d/2025/07/29/114/dof/vci/html
 [8-2025]: https://dogv.gva.es/datos/2025/04/30/pdf/2025_13083_va.pdf
 
-_TODO: si aquest mòdul de Projecte Intermodular té una guia o normativa
-pròpia (com en el cas d'ASIX), afegir-la ací._
+- [GUIA per a la programació del mòdul de projecte intermodular a la
+    Comunitat Valenciana](https://ceice.gva.es/documents/388109149/394550702/Gu%C3%ADa+para+elaboraci%C3%B3n+del+proyecto+intermodular+cas.pdf/82fbb47e-9938-a475-b2d2-0060363eb6b6?t=1753877137883)
 
 
 ## 3. Contextualització
-- __Codi__: TODO
-- __Durada__: TODO hores
-- __Crèdits ECTS__: TODO
+- __Codi__: 0616p
+- __Durada__: 34 hores
+- __Crèdits ECTS__: 1
 
 La finalitat d'aquest projecte és integrar les competències adquirides en la resta dels
 mòduls del curs, especialment allò relacionat amb la cerca d'informació, la
@@ -128,19 +128,19 @@ mòduls professionals, consensuats pel equip educatiu.
 - __PI-RA2__: Utilitza eines de control de versions per gestionar el codi, mantindre un historial de canvis, resoldre conflictes i facilitar el treball col·laboratiu.
 - __PI-RA3__: Participa activament en el treball en grup, assumint responsabilitats, comunicant-se de manera efectiva i col·laborant en la presa de decisions per aconseguir els objectius.
 
-##### TODO – [[rubriques-bd|Bases de dades]]
+##### TODO – Bases de dades
 _(RA pendents d'especificar pel mòdul de Bases de dades.)_
 
-##### TODO – [[rubriques-ed|Entorns de desenvolupament]]
+##### TODO – Entorns de desenvolupament
 _(RA pendents d'especificar pel mòdul d'Entorns de desenvolupament.)_
 
-##### TODO – [[rubriques-llmq|Llenguatge de marques i sistemes de gestió de la informació]]
+##### TODO – Llenguatge de marques i sistemes de gestió de la informació
 _(RA pendents d'especificar pel mòdul de Llenguatge de marques i sistemes de gestió de la informació.)_
 
-##### TODO – [[rubriques-prg|Programació]]
+##### TODO – Programació
 _(RA pendents d'especificar pel mòdul de Programació.)_
 
-##### TODO – [[rubriques-si|Sistemes informàtics]]
+##### TODO – Sistemes informàtics
 _(RA pendents d'especificar pel mòdul de Sistemes informàtics.)_
 
 
