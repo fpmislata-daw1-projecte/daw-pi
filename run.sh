@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 function print {
     GREEN="\033[0;32m"
@@ -23,6 +24,7 @@ ALL=0
 SPELL_SOURCES=''
 COPILOT=0
 SKIP=0
+PORT=''
 
 ARGS=''
 SPELL_ARGS=''
@@ -54,6 +56,14 @@ while [ $# -gt 0 ] ; do
             ;;
         --skip)
             SKIP=1
+            ;;
+        -p | --port)
+            PORT=$2
+            if [ -z "$PORT" ]; then
+                print "Missing port number."
+                exit 1
+            fi
+            shift
             ;;
         --copilot)
             COPILOT=1
@@ -111,14 +121,17 @@ source $VENV_DIR/bin/activate
 COMMAND="serve --livereload"
 if [ $BUILD -eq 1 ]; then
     COMMAND="build"
+elif [ -n "$PORT" ]; then
+    COMMAND="$COMMAND -a localhost:$PORT"
 fi
 
+GENERATOR_STATUS=0
 if [ $CI -eq 0 ]; then
-    $GENERATOR $COMMAND $ARGS
+    $GENERATOR $COMMAND $ARGS || GENERATOR_STATUS=$?
 else
-    CI=true $GENERATOR $COMMAND $ARGS
+    CI=true $GENERATOR $COMMAND $ARGS || GENERATOR_STATUS=$?
 fi
-if [ $? -ne 0 ]; then
+if [ $GENERATOR_STATUS -ne 0 ]; then
     print "Error building site."
     exit 1
 fi
