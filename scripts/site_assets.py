@@ -52,6 +52,11 @@ def get_site_author(config_text: str) -> str | None:
     return m.group(1) if m else None
 
 
+def get_site_email(config_text: str) -> str | None:
+    m = re.search(r'^site_email:\s*["\']?(.*?)["\']?\s*$', config_text, re.MULTILINE)
+    return m.group(1) if m else None
+
+
 def find_bold_font(size: int) -> ImageFont.FreeTypeFont:
     try:
         path = subprocess.check_output(

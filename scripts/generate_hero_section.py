@@ -21,6 +21,7 @@ from site_assets import (
     get_light_primary,
     get_primary_colors,
     get_site_author,
+    get_site_email,
     get_site_name,
     git_config_value,
     load_config,
@@ -30,8 +31,8 @@ from site_assets import (
 )
 
 
-def default_name_email() -> tuple[str | None, str | None]:
-    return git_config_value("user.name"), git_config_value("user.email")
+def default_name() -> str | None:
+    return git_config_value("user.name")
 
 
 def fit_font(draw: ImageDraw.ImageDraw, text: str, max_width: float, size: int, min_size: int, bold: bool):
@@ -52,11 +53,11 @@ def draw_blobs(width: int, height: int, color: tuple[int, int, int], opacity: fl
     layer = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(layer)
     alpha = round(255 * opacity)
-    radius = round(height * 0.4)
+    radius = round(height * 0.75)
     for cx_frac, cy_frac in ((0.28, 0.25), (0.78, 0.75)):
         cx, cy = width * cx_frac, height * cy_frac
         draw.ellipse((cx - radius, cy - radius, cx + radius, cy + radius), fill=(*color, alpha))
-    return layer.filter(ImageFilter.GaussianBlur(radius=height * 0.1))
+    return layer.filter(ImageFilter.GaussianBlur(radius=height * 0.18))
 
 
 def generate_hero_section(
@@ -158,7 +159,7 @@ def main() -> None:
     parser.add_argument("--title", default=None, help="Title text (default: site_name)")
     parser.add_argument("--eyebrow", default=None, help="Small uppercase label above the title (default: none)")
     parser.add_argument("--name", default=None, help="Author name (default: git user.name)")
-    parser.add_argument("--email", default=None, help="Author email override (default: git user.email)")
+    parser.add_argument("--email", default=None, help="Author email override (default: site_email config, falling back to git user.email)")
     parser.add_argument("--padding", type=float, default=0.14, help="Padding as a fraction of the banner height")
     args = parser.parse_args()
 
@@ -168,9 +169,8 @@ def main() -> None:
     accent_color, _ = get_primary_colors(primary)
     title = args.title or get_site_name(config) or ""
 
-    default_name, default_email = default_name_email()
-    name = args.name if args.name is not None else default_name
-    email = args.email if args.email is not None else default_email
+    name = args.name if args.name is not None else default_name()
+    email = args.email if args.email is not None else (get_site_email(config) or git_config_value("user.email"))
     author = " · ".join(part for part in (name, email) if part) or get_site_author(config)
 
     bg_color = parse_color(args.bg_color)[:3] if args.bg_color else None
