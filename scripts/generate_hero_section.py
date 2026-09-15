@@ -52,11 +52,11 @@ def draw_blobs(width: int, height: int, color: tuple[int, int, int], opacity: fl
     layer = Image.new("RGBA", (width, height), (0, 0, 0, 0))
     draw = ImageDraw.Draw(layer)
     alpha = round(255 * opacity)
-    radius = round(height * 0.75)
+    radius = round(height * 0.4)
     for cx_frac, cy_frac in ((0.28, 0.25), (0.78, 0.75)):
         cx, cy = width * cx_frac, height * cy_frac
         draw.ellipse((cx - radius, cy - radius, cx + radius, cy + radius), fill=(*color, alpha))
-    return layer.filter(ImageFilter.GaussianBlur(radius=height * 0.18))
+    return layer.filter(ImageFilter.GaussianBlur(radius=height * 0.1))
 
 
 def generate_hero_section(
