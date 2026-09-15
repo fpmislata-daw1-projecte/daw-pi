@@ -1,49 +1,52 @@
 ---
 title: Avaluació
-icon: material/check
+icon: material/clipboard-check-outline
 alias: avaluacio
 ---
-# :material-check: Avaluació
+# :material-clipboard-check-outline: Avaluació
 
 ## Instruments d'avaluació
 L'avaluació del projecte es realitzarà utilitzant els següents instruments d'avaluació:
 
-- __Autoavaluació i coavaluació__: Al final de cada [__Sprint__][scrum],
-    es realitzarà una autoavaluació i coavaluació entre els membres del grup,
-    que servirà per a identificar quins aspectes del treball en grup han funcionat
-    i quins cal millorar.
+- __Rúbriques d'observació__: Avaluaran el treball realitzat per l'alumnat durant el
+    desenvolupament de cada sprint (planificació, control de versions i participació).
 
-- __Revisió del contracte__: A cada [__Retrospectiva del Sprint__][cerimonies-scrum],
-    es revisarà el [__contracte del grup__][contracte] per tal de comprovar que s'ha treballat
-    correctament segons el acordat entre els membres del grup.
+- __Rúbriques de presentació__: Avaluaran la presentació i defensa oral del projecte
+    al final de cada sprint.
 
-- __Rúbriques tècniques o específiques__: Avaluaran els aspectes tècnics del projecte.
-    Cada mòdul professional implicat proporcionarà les rúbriques específiques
-    per avaluar els aspectes tècnics relacionats amb el seu àmbit.
+- __Autoavaluació i coavaluació__: L'alumnat valorarà el seu propi treball i el
+    dels seus companys d'equip pel que fa a la implicació i responsabilitat en el projecte.
 
-- __Proves de validació__: L'equip educatiu pot decidir realitzar proves de validació
-    als membres d'un grup per tal de comprovar que han entès i saben aplicar els conceptes
-    tècnics treballats al projecte.
+- __Proves de validació__ (_si és necessari_): L'equip educatiu pot decidir realitzar proves
+    de validació als membres d'un grup per tal de comprovar que han entès i saben aplicar
+    els conceptes tècnics treballats al projecte.
 
-
-[scrum]: ../gestio/scrum.md
-[cerimonies-scrum]: ../gestio/scrum.md#cerimonies-de-scrum
-[contracte]: ../gestio/formacio_grups.md#contracte
 
 ## Qualificació
-Cada mòdul professional decidirà com incorporar la qualificació
-dels diferents instruments d'avaluació a la qualificació.
+La qualificació del projecte intermodular es calcularà tenint
+en compte els instruments d'avaluació utilitzats en cada :octicons-iterations-16: sprint.
 
-Aquesta informació està disponible a la __Programació didàctica__
-de cada mòdul professional.
+/// html | div.center
+| Sprint | Percentatge sobre la qualificació final |
+| - | - |
+| Sprint 1 | 15% |
+| Sprint 2 | 17% |
+| Sprint 3 | 17% |
+| Sprint 4 | 17% |
+| Sprint 5 | 17% |
+| Sprint 6 | 17% |
+| **Total** | **100%** |
+///
 
-Per norma general:
+Cada sprint s'avalua exclusivament sobre els RA propis del Projecte Intermodular,
+segons els criteris següents:
 
-- S'obtindrà una qualificació de les __rúbriques tècniques o específiques__
-    relacionades amb el mòdul professional.
-
-- Si el docent ho considera necessari, es realitzaran __proves de validació__
-    sobre les rúbriques tècniques o específiques. La qualificació de les proves de validació pot ser __Apte__ o __No Apte__.
-
-    - __Apte__: La qualificació de la rúbrica tècnica o específica es manté.
-    - __No Apte__: La qualificació de la rúbrica tècnica o específica es qualificarà amb un 0.
+/// html | div.center
+| Criteri | RA | Percentatge |
+| - | - | - |
+| Planificació | PI-RA1 | 20% |
+| Control de versions | PI-RA2 | 10% |
+| Participació i implicació | PI-RA3 | 40% |
+| Presentació | PI-RA4 | 30% |
+| **Total** |  | **100%** |
+///

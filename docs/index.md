@@ -1,5 +1,6 @@
 ---
 title: Inici
+icon: material/home
 hide:
     - toc
 landing: true

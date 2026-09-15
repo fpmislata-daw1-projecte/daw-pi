@@ -120,28 +120,13 @@ No s'han definit a aquest mòdul professional.
 
 
 ### 5.2. Resultats d'aprenentatge
-Aquest mòdul contindrà els resultats d'aprenentatge (RA) dels següents
-mòduls professionals, consensuats pel equip educatiu.
+Aquest mòdul contindrà els resultats d'aprenentatge (RA) del
+mòdul professional de Projecte Intermodular.
 
-##### TODO – Projecte Intermodular
 - __PI-RA1__: Planifica i gestiona un projecte tecnològic definint objectius, tasques, terminis i recursos, utilitzant metodologies de treball adequades i elaborant la documentació necessària per garantir un desenvolupament estructurat i eficient.
 - __PI-RA2__: Utilitza eines de control de versions per gestionar el codi, mantindre un historial de canvis, resoldre conflictes i facilitar el treball col·laboratiu.
 - __PI-RA3__: Participa activament en el treball en grup, assumint responsabilitats, comunicant-se de manera efectiva i col·laborant en la presa de decisions per aconseguir els objectius.
-
-##### TODO – Bases de dades
-_(RA pendents d'especificar pel mòdul de Bases de dades.)_
-
-##### TODO – Entorns de desenvolupament
-_(RA pendents d'especificar pel mòdul d'Entorns de desenvolupament.)_
-
-##### TODO – Llenguatge de marques i sistemes de gestió de la informació
-_(RA pendents d'especificar pel mòdul de Llenguatge de marques i sistemes de gestió de la informació.)_
-
-##### TODO – Programació
-_(RA pendents d'especificar pel mòdul de Programació.)_
-
-##### TODO – Sistemes informàtics
-_(RA pendents d'especificar pel mòdul de Sistemes informàtics.)_
+- __PI-RA4__: Presenta i defensa oralment el desenvolupament del projecte i els resultats obtinguts, emprant un llenguatge tècnic adequat i recursos de suport visual.
 
 
 ### 5.3. Resultats d'aprenentatge a la Formació en Empresa
@@ -195,17 +180,17 @@ la qualificació del mòdul serà com a màxim un 4.
 Per norma general les notes s'arredoniran amb la fórmula general: __>.5__.
 No obstant això, en l'interval $[4, 5)$ la nota s'arredonirà a 5 sols a partir de 4.75.
 
-La ponderació de cada sprint en la qualificació del mòdul és la següent _(TODO: pendent de decidir)_:
+La ponderació de cada sprint en la qualificació del mòdul és la següent:
 
 /// html | div.center
 | Sprint | Percentatge |
 | :----- | :---------- |
-| Sprint 1 | TODO |
-| Sprint 2 | TODO |
-| Sprint 3 | TODO |
-| Sprint 4 | TODO |
-| Sprint 5 | TODO |
-| Sprint 6 | TODO |
+| Sprint 1 | 15% |
+| Sprint 2 | 17% |
+| Sprint 3 | 17% |
+| Sprint 4 | 17% |
+| Sprint 5 | 17% |
+| Sprint 6 | 17% |
 /// figure-caption: Ponderació de cada sprint en la qualificació del mòdul.
 ///
 
@@ -222,14 +207,17 @@ Per poder superar el mòdul, l'alumnat haurà de:
 
 ### 7.4. Avaluació contínua
 L'avaluació es realitzarà amb els següents instruments d'avaluació (IA),
-detallats a [[avaluacio|:material-check: Avaluació]]:
+detallats a [[avaluacio|:material-clipboard-check-outline: Avaluació]]:
 
-- __Rúbriques tècniques o específiques__: Avaluaran els aspectes vinculats amb cada RA.
-    Cada mòdul professional implicat proporcionarà les rúbriques específiques
-    per avaluar els RA que li corresponen.
-- __Proves de validació__: L'equip educatiu pot decidir realitzar proves de validació
-    als membres d'un grup per tal de comprovar que han entès i
-    saben aplicar els conceptes tècnics treballats al projecte.
+- __Rúbriques d'observació__: Avaluaran el treball realitzat per l'alumnat durant el
+    desenvolupament de cada sprint (planificació, control de versions i participació).
+- __Rúbriques de presentació__: Avaluaran la presentació i defensa oral del projecte
+    al final de cada sprint.
+- __Autoavaluació i coavaluació__: L'alumnat valorarà el seu propi treball i el
+    dels seus companys d'equip pel que fa a la implicació i responsabilitat en el projecte.
+- __Proves de validació__ (_si és necessari_): L'equip educatiu pot decidir realitzar proves
+    de validació als membres d'un grup per tal de comprovar que han entès i saben aplicar
+    els conceptes tècnics treballats al projecte.
 
 La __nota de cada avaluació__ serà una instantània
 de la __qualificació del mòdul__ en el moment de l'avaluació,
