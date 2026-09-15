@@ -24,6 +24,7 @@ SPELL_SOURCES=''
 COPILOT=0
 SKIP=0
 SQUARE_LOGO=0
+HERO_SECTION=0
 PORT=''
 
 ARGS=''
@@ -70,6 +71,9 @@ while [ $# -gt 0 ] ; do
             ;;
         --logo)
             SQUARE_LOGO=1
+            ;;
+        --herosection)
+            HERO_SECTION=1
             ;;
         --act)
             ACT=$2
@@ -123,6 +127,11 @@ source $VENV_DIR/bin/activate
 
 if [ $SQUARE_LOGO -eq 1 ]; then
     python3 scripts/generate_square_logo.py $ARGS
+    exit $?
+fi
+
+if [ $HERO_SECTION -eq 1 ]; then
+    python3 scripts/generate_hero_section.py $ARGS
     exit $?
 fi
 
