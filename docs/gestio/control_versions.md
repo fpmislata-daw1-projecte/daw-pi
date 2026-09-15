@@ -62,6 +62,8 @@ Podeu consultar els apunts [Pull Requests][pull-requests] per a més informació
 
     - __Pull Request requerida__: No es permetrà fer commits directament a la branca principal ni de desenvolupament,
         que sols podran integrar canvis mitjançant Pull Requests.
+    - __Revisió requerida__: La Pull Request no es podrà fusionar fins que
+        __l'altre membre de l'equip__ l'haja revisada i aprovada.
     - __Història lineal__: No es permetran commits amb història no lineal.
     - __Integració `merge --squash`__: Deshabilitar els altres mètodes d'integració en les Pull Requests.
 

@@ -39,7 +39,7 @@ Les figures principals de SCRUM són les següents:
 
 - __Client o _stakeholder___: és la persona o entitat que té interès en el producte
     i que pot proporcionar informació i feedback sobre els requisits.
-- __Product Owner__: és la persona responsable de definir els requisits del producte
+- __Propietari del Producte (_Product Owner_)__: és la persona responsable de definir els requisits del producte
     i prioritzar-los en el _backlog_. És la persona que representa
     els interessos del client o _stakeholder_.
 - __Scrum Master__: és la persona responsable de garantir que l'equip seguisca
@@ -76,11 +76,46 @@ En aquest projecte, s'ha decidit utilitzar SCRUM com a metodologia de
 desenvolupament per aconseguir els objectius del projecte de manera
 eficient i eficaç.
 
-Les figures __Product Owner__ i __Scrum Master__ seran
-rotatives entre els membres de l'equip en cada sprint.
+### Assignació de figures
+
+- __Propietari del Producte (_Product Owner_)__: recau sempre sobre el __professorat__. És qui defineix
+    i prioritza els requisits del projecte, resol dubtes sobre l'abast
+    de les tasques i valida el resultat de cada sprint durant la
+    revisió del sprint.
+- __Scrum Master__: __rota entre els membres de l'equip en cada sprint__,
+    de manera que tots els integrants passen per aquest rol al llarg
+    del projecte. La persona amb este rol s'encarrega de moderar la
+    _daily scrum_, vetlar pel compliment de les pràctiques de SCRUM
+    i eliminar els impediments que sorgisquen durant el sprint.
+- __Equip de desenvolupament__: la resta de membres de l'equip, encarregats
+    de realitzar les tasques planificades al _sprint backlog_.
+
+### Temporalització
+
+El projecte es divideix en sprints d'una durada fixa. Al començament de
+cada sprint es realitza la __planificació del sprint__ i, en finalitzar-lo,
+la __revisió del sprint__ i la __retrospectiva del sprint__.
 
 Podeu trobar la temporalització de cada sprint i les
-tasques a realitzar al [[calendari|:material-calendar: Calendari]].
+tasques orientatives a realitzar al [[calendari|:material-calendar: Calendari]].
+
+### Cerimònies a l'aula
+
+- La __planificació del sprint__ i la __revisió del sprint__ es realitzen
+    el primer dia de cada sprint, amb la presència del __Propietari del Producte__
+    (professorat) i de tot l'equip.
+- La __reunió diària__ es realitza a l'inici de cada jornada,
+    moderada pel __Scrum Master__ del sprint.
+- La __retrospectiva__ es realitza en finalitzar cada sprint, a
+    continuació de la revisió, i les conclusions s'han de recollir
+    per escrit per a tindre'n constància de cara als següents sprints.
+- El __refinament del _backlog___ es realitza de manera contínua per
+    l'equip de desenvolupament, sota la supervisió del Propietari del Producte.
+
+### Gestió del backlog
+
+El seguiment de les tasques i els sprints es realitza mitjançant les
+[[eines|:fontawesome-solid-chart-column: eines de gestió]] de GitHub.
 
 
 ## Recursos

@@ -14,15 +14,10 @@ que ens proporciona __:simple-github: GitHub__.
     - __General Backlog__: Tasques pendents de realitzar.
     - __Sprint Backlog__: Tasques planificades per a la iteració actual.
     - __In Progress__: Tasques en curs.
-    - __Done Sprint `N`__: Tasques completades en la iteració `N`.
+    - __Done__: Tasques completades.
 
-- __[:octicons-milestone-16: Fites (_Milestones_)][milestones]__: S'utilitzaran per a agrupar les tasques
-    en iteracions. Cada milestone tindrà una data de finalització.
-
-    Cal especificar els següents aspectes:
-
-    - __Títol i descripció.__
-    - __Data de finalització.__
+    Cal configurar el camp __[:octicons-iterations-16: Iterations][iterations]__ per a agrupar
+    les tasques per sprint.
 
 - __[:octicons-issue-opened-16: Incidències (_Issues_)][issues]__: Registrar les tasques i problemes del projecte.
 
@@ -42,6 +37,6 @@ que ens proporciona __:simple-github: GitHub__.
 
 
 [issues]: https://docs.github.com/es/issues/tracking-your-work-with-issues/about-issues
-[milestones]: https://docs.github.com/es/issues/using-labels-and-milestones-to-track-work/about-milestones
 [projects]: https://docs.github.com/es/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects
+[iterations]: https://docs.github.com/es/issues/planning-and-tracking-with-projects/understanding-fields/about-the-iteration-field
 [releases]: https://docs.github.com/es/github/administering-a-repository/managing-releases-in-a-repository
