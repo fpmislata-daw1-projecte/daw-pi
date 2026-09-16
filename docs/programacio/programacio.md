@@ -24,8 +24,8 @@ _Control de versions:_
 <div class="break-page"></div>
 
 ## 1. Propostes de millora del curs anterior
-Aquest mòdul no té cap proposta de millora del curs anterior,
-ja que és la primera vegada que s'imparteix.
+La memòria d'aquest mòdul corresponent al curs 2025-2026 no especifica
+cap proposta de millora.
 
 
 ## 2. Marc normatiu
