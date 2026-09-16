@@ -230,12 +230,12 @@ on s'hauran avaluat tots els instruments d'avaluació de tots els RA.
 ### 7.5. Convocatòries ordinàries
 L'alumnat té dret a dues convocatòries ordinàries en un curs acadèmic.
 
-En aquesta convocatòria, l'alumnat que no haja superat algun
-dels RA en l'avaluació contínua haurà de realitzar, de manera individual,
-les tasques pendents per a superar els RA no superats, que s'avaluaran
-utilitzant els mateixos IA que en l'avaluació contínua.
+En convocatòries ordinàries, l'alumnat haurà de presentar el
+projecte complet i defendre'l.
 
-Es mantindrà la qualificació obtinguda en els RA superats en l'avaluació contínua.
+La qualificació de cada RA es correspondrà amb l'obtinguda en aquesta
+convocatòria si no s'ha superat prèviament. Es mantindrà la qualificació
+obtinguda en els RA superats en l'avaluació contínua.
 
 Per superar la convocatòria ordinària, __l'alumnat haurà de superar
 tots els RA__.
