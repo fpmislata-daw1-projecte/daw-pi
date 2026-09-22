@@ -1,11 +1,12 @@
 site_name: "Projecte Intermodular de 1r de DAW"
 site_description: "Projecte intermodular de 1r de Desenvolupament d'Aplicacions Web (DAW1)"
-site_author: "Equip educatiu DAW1 del CIPFP Mislata"
-site_url: https://fpmislata-daw1-projecte.github.io/projecte-daw1/
+site_author: "Joan Puigcerver Ibáñez"
+site_email: "j.puigcerveribanez@edu.gva.es"
+site_url: https://fpmislata-daw1-projecte.github.io/daw-pi/
 dev_addr: 127.0.0.1:4567
 
 repo_name: projecte-daw1
-repo_url: https://github.com/fpmislata-daw1-projecte/projecte-daw1
+repo_url: https://github.com/fpmislata-daw1-projecte/daw-pi/
 copyright: CC BY-NC-SA 4.0 (Reconeixement - NoComercial - CompartirIgual) 🅭 Equip educatiu DAW1 del CIPFP Mislata
 
 extra:
