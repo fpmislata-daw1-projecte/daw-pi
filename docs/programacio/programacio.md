@@ -256,7 +256,6 @@ docent, la qualitat dels materials i el procés d'aprenentatge.
 - Eines de control de versions: __:simple-git: Git__
 - Llocs d'allotjament de repositoris Git: __:simple-github: GitHub__
 - Eines de contenidorització: __:simple-docker: Docker__
-- Eines de virtualització: __:simple-proxmox: Proxmox VE__
 - Plataforma en el núvol: __:material-aws: Amazon Web Services (AWS)__
 
 
