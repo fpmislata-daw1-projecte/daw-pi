@@ -2,10 +2,11 @@
 template: programacio.html
 title: "Programació didàctica"
 print_title: "DAW1_PI_2627"
-subtitle:
-    - "0616p – Projecte Intermodular"
-    - Desenvolupament d'Aplicacions Web
-curs: 2026-2027
+cover:
+    subtitle:
+        - "0616p – Projecte Intermodular"
+        - Desenvolupament d'Aplicacions Web
+    curs: 2026-2027
 alias: programacio
 icon: material/book
 ---

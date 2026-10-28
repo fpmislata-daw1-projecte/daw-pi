@@ -74,7 +74,7 @@ plugins:
       use_page_icon: true
   - glightbox
   - macros
-  - materialx/social:
+  - material-joapuiib/social:
       enabled: !ENV [CI, false]
   - materialx/tags
   - i18n:
