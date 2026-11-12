@@ -16,6 +16,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/projecte-daw1
       name: projecte-daw1 a GitHub
+    - icon: fp-terminal-mono
+      link: https://joapuiib.github.io/fp/
+      name: "FP – Apunts de Formació Professional"
 
 extra_css:
   - assets/styles/styles.css
